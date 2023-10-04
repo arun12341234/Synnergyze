@@ -1,0 +1,151 @@
+#slider {
+    display: flex;
+    margin-top: 5.6rem;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    background: #f8f8f8;
+}
+
+.Img-api img {
+    transition: all ease-in-out .3s;
+    width: 100%;
+}
+
+.Img-api {
+    display: flex;
+    /* margin-left: 19rem; */
+    justify-content: center;
+}
+
+.uder-li {
+   
+    border: 1px solid gray;
+   
+    width: fit-content;
+}
+.list-section li {
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    padding: 7px 5px;
+
+    color: #525d62;
+    
+}
+
+.list-section li:hover {
+    background: #525d62;
+    color: #fff;
+}
+
+.phone-num {
+    display: flex;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.img-text {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 1rem;
+
+}
+
+.text-part {
+    margin: 0 1rem;
+    background-color: #fff;
+    box-shadow: 2px 2px 5px #000;
+}
+
+.meu-ar {
+    position: absolute;
+    /* bottom:-7.5rem; */
+    margin-left: 15rem;
+    padding: auto;
+    display: none;
+
+}
+
+.list-section li:hover .meu-ar {
+    display: block;
+    cursor: pointer;
+
+    z-index: 8;
+
+}
+
+.dropdown li {
+    background: #525d62;
+    color: #fff;
+
+}
+
+.dropdown li:hover {
+    color: #525d62;
+    background: #fff;
+
+}
+
+#footer-sce{
+    background: #f8f8f8;
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
+    
+}
+.div-2-img img{
+  margin: 0 2rem;
+}
+.img-sect {
+margin-left: 2rem;
+    display: flex;
+    background: #f8f8f8;
+
+}
+
+.img-2 {
+    border: 0.1px solid #525050;
+    height: 15vh;
+    background: #f8f8f8;
+     padding: 1rem 1.2rem;
+    text-align: center;
+     font-size: 13px;
+}
+
+
+
+
+.sec-2 {
+    text-decoration: none;
+    color: #2d8ed2;
+    font-size: 13px;
+    padding: 6px 0 6px 16px;
+    float: none;
+    display: block;
+    background: #f8f8f8;
+}
+
+@media(max-width:1000px) {
+    .list-section{
+        display: none;
+    }
+
+    .close{
+        display: none;
+    }
+    #footer-sce{
+        display: none;
+    }
+    #slider {
+        margin-top:0;
+    }
+    .Img-api{
+        margin:4rem auto;
+        width: 100%;
+       
+    }
+   
+}

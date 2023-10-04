@@ -1,0 +1,256 @@
+#narv {
+    z-index: 22;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    background-color: #232f3e;
+    font-family: 'Roboto', sans-serif;
+    height: 11vh;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 1.3rem;
+}
+
+.Logo span {
+    color: rgb(226, 150, 88);
+}
+
+.Logo h1 {
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+#section {
+    position: relative;
+    left: 1rem;
+    padding: .6rem 2.3rem;
+    font-size: 1em;
+    color: #fff;
+    background-color: rgb(226, 150, 88);
+    border: none;
+    border-radius: 2px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.serach- {
+    font-family: 'Roboto', sans-serif;
+    padding: .6rem 2.3rem;
+    font-size: 1em;
+
+    background-color: #fff;
+    border: none;
+    border-radius: 3px;
+}
+
+.serach-:hover {
+    outline: 1px solid rgb(226, 150, 88);
+}
+
+.btn button {
+    padding: .4rem 2.3rem;
+    font-size: 1em;
+    color: #fff;
+    background-color: rgb(240, 138, 55);
+    border: none;
+    border-radius: 2px;
+    margin: 0 .5rem;
+}
+
+.btn i {
+    display: none;
+    font-size: 1.7em;
+}
+
+.ico {
+    position: relative;
+    right: 1.9rem;
+    top: .4rem;
+    font-size: 1.5em;
+    color: rgb(240, 138, 55);
+}
+
+.last-icon i {
+    font-size: 1.5em;
+    display: none;
+}
+
+.cart {
+    font-size: 2em;
+}
+
+.Logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Logo i {
+    display: none;
+}
+
+.click-for {
+    display: none;
+}
+.click-for li{
+    background-color: #000;
+    color: #fff;
+}
+.click-for li:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+}
+.list-nav {
+    display: none;
+    position: absolute;
+    top: 5rem;
+    right: 0;
+    z-index: 67;
+    background-color: #000;
+    color: #fff;
+}
+
+.list-nav li {
+    list-style-type: none;
+    padding: 7px 0;
+    background-color: #fff;
+}
+
+
+
+.part2-last {
+    z-index: 45;
+    text-decoration: none;
+    color: #2d8ed2;
+    font-size: 15px;
+    padding: 6px 0 6px 16px;
+    float: none;
+    display: block;
+    background: #686161;
+}
+
+.style-look {
+    display: none;
+    list-style-type: none;
+    position: absolute;
+    top: 3rem;
+    right: 13rem;
+    background: #fff;
+    color: gray;
+}
+.uderoda li{
+    color: #000;
+}
+.uderoda li:hover{
+background-color: #000;
+color: #fff;
+cursor: pointer;
+    
+}
+.style-look li {
+    padding: 8px;
+}
+
+@media(max-width:980px) {
+
+    .btn i {
+        display: block;
+    }
+    .style-look li a{
+        text-decoration: none;
+        color: #456767;
+    }
+    .style-look li a:hover{
+        color: #fff;
+    }
+    .style-look li:hover{
+        color: #fff;
+        background-color: #4d1f1f;
+    }
+    .style-look.trast{
+        display: block;
+    }
+    .list-nav.showactive{
+        display: block;
+    }
+
+    .last-icon i {
+        display: block;
+    }
+
+    #narv {
+        height: fit-content;
+    }
+
+    .btn button {
+
+
+        display: none;
+
+    }
+
+}
+
+@media(max-width:790px) {
+    .Logo i {
+        font-size: 1.3rem;
+        font-weight: 400;
+        padding: 0 12px;
+        display: block;
+    }
+
+    .click-for {
+        position: absolute;
+        top: 2rem;
+        background-color: #000;
+        color: #fff;
+        list-style: none;
+        left: 0;
+        /* width: 0; */
+        z-index: 56;
+        /* display: none; */
+        transition: all .2s ease-in;
+    }
+
+    .click-for.active {
+        /* width: 30px; */
+
+        display: block;
+    }
+
+    .click-for li {
+        padding: 1rem 0;
+    }
+
+    #section {
+        display: none;
+    }
+
+    .serach- {
+        background-color: #fff;
+        border: 1px solid gray;
+        width: 100%;
+        position: absolute;
+        top: 2rem;
+        right: 0;
+        /* z-index: ; */
+        margin: .5rem 0;
+    }
+
+    .ico{
+        display: none;
+    }
+
+}
+
+@media(max-width:550px) {
+    
+    .Logo h1 {
+        font-size: 1.3rem;
+        font-weight: 400;
+    }
+    
+
+}
