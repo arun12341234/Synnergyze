@@ -1,27 +1,25 @@
 #slider {
+    margin-top: 4.2rem;
     display: flex;
-    margin-top: 5.6rem;
-    align-items: center;
-    justify-content: space-between;
+    gap: 8px;
     font-family: 'Roboto', sans-serif;
     background: #f8f8f8;
 }
 
 .Img-api img {
-    transition: all ease-in-out .3s;
+    transition:.3s;
     width: 100%;
 }
 
 .Img-api {
     display: flex;
-    /* margin-left: 19rem; */
     justify-content: center;
 }
 
 .uder-li {
    
     border: 1px solid gray;
-   
+    font-size: 14px;
     width: fit-content;
 }
 .list-section li {
@@ -40,29 +38,30 @@
 
 .phone-num {
     display: flex;
-    margin: 1rem 0;
+    margin-top: 1rem;
     text-align: center;
 }
-
+.div-2-img{
+    margin: 1rem 0;
+}
 .img-text {
     font-family: 'Roboto', sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin: 1rem;
+
 
 }
 
 .text-part {
-    margin: 0 1rem;
+    margin: 0 1.5rem;
     background-color: #fff;
     box-shadow: 2px 2px 5px #000;
 }
 
 .meu-ar {
     position: absolute;
-    /* bottom:-7.5rem; */
     margin-left: 15rem;
     padding: auto;
     display: none;
@@ -92,25 +91,24 @@
 #footer-sce{
     background: #f8f8f8;
     display: flex;
-    justify-content: space-evenly;
+   gap: 13px;
     overflow: hidden;
     
 }
-.div-2-img img{
-  margin: 0 2rem;
-}
+
 .img-sect {
-margin-left: 2rem;
     display: flex;
     background: #f8f8f8;
 
 }
-
+.close img{
+    margin: 1rem 0;
+}
 .img-2 {
-    border: 0.1px solid #525050;
+    border: 0.1px solid #adabab;
     height: 15vh;
-    background: #f8f8f8;
-     padding: 1rem 1.2rem;
+    background: #fffafa;
+     padding: 1rem .8rem;
     text-align: center;
      font-size: 13px;
 }
@@ -128,7 +126,7 @@ margin-left: 2rem;
     background: #f8f8f8;
 }
 
-@media(max-width:1000px) {
+@media(max-width:890px) {
     .list-section{
         display: none;
     }

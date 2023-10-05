@@ -8,7 +8,6 @@ import Best from './Shopping/Product-1/Best';
 import Text from './Shopping/Description/Text';
 
 import Footer from './Shopping/Footer-sec/Footer';
-import Registaion from './Shopping/Registaion/Registaion';
 import Search from './Shopping/Search/Search';
 import Login from './Shopping/Login/Login';
 
@@ -29,7 +28,7 @@ const App = () => {
           </div>
         } />
         <Route path='/search' element={<Search />} />
-        <Route path='/registration' element={<Registaion />} />
+        
         <Route path='/login' element={<Login />} />
       </Routes>
     </Router>

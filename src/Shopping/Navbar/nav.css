@@ -1,12 +1,12 @@
 #narv {
-    z-index: 22;
+    z-index: 27;
     display: flex;
     justify-content: space-around;
     align-items: center;
     color: #fff;
     background-color: #232f3e;
     font-family: 'Roboto', sans-serif;
-    height: 11vh;
+    height: auto;
     position: fixed;
     left: 0;
     right: 0;
@@ -25,10 +25,11 @@
 #section {
     position: relative;
     left: 1rem;
+    font-weight: 400;
     padding: .6rem 2.3rem;
-    font-size: 1em;
+    font-size: 12px;
     color: #fff;
-    background-color: rgb(226, 150, 88);
+    background-color: rgb(151, 84, 29);
     border: none;
     border-radius: 2px;
     font-family: 'Roboto', sans-serif;
@@ -37,8 +38,8 @@
 .serach- {
     font-family: 'Roboto', sans-serif;
     padding: .6rem 2.3rem;
-    font-size: 1em;
-
+    font-size: 12px;
+font-weight: 4000;
     background-color: #fff;
     border: none;
     border-radius: 3px;
@@ -49,35 +50,65 @@
 }
 
 .btn button {
-    padding: .4rem 2.3rem;
-    font-size: 1em;
-    color: #fff;
-    background-color: rgb(240, 138, 55);
-    border: none;
-    border-radius: 2px;
-    margin: 0 .5rem;
+    background-color: #db3f1f;
+  padding: 10px 8px;
+  font-weight: 600;
+  border-radius: 2px;
+  font-size: 12px;
+  text-align: center;
+  white-space: nowrap;
+  color: #fff;
+  border: none;
 }
 
-.btn i {
-    display: none;
+.trackIcon{
+    display: flex;
+}
+.trackIcon i{
     font-size: 1.7em;
+}
+.child{
+    font-weight: 400;
+    font-size: 12px;
+}
+.icon-store{
+  justify-content: center;
+    display: flex;
 }
 
 .ico {
+    border: none;
     position: relative;
-    right: 1.9rem;
-    top: .4rem;
+    right: 1.5rem;
+    top: .5rem;
     font-size: 1.5em;
     color: rgb(240, 138, 55);
+    background-color: transparent;
 }
 
-.last-icon i {
-    font-size: 1.5em;
-    display: none;
+.transt-parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
-.cart {
-    font-size: 2em;
+.transt-parent img{
+margin: 0 6px;
+}
+.transt-parent-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.transt-parent-2 span{
+    background-color: #fff;
+    color: #000;
+    padding: 1px 8px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+.transt-parent-2 p{
+    font-size: 13px;
 }
 
 .Logo {
@@ -105,7 +136,7 @@
 .list-nav {
     display: none;
     position: absolute;
-    top: 5rem;
+    top: 3.4rem;
     right: 0;
     z-index: 67;
     background-color: #000;
@@ -135,29 +166,31 @@
     display: none;
     list-style-type: none;
     position: absolute;
-    top: 3rem;
-    right: 13rem;
+    top: 2rem;
+    right: 5rem;
     background: #fff;
     color: gray;
 }
 .uderoda li{
     color: #000;
 }
-.uderoda li:hover{
+.uderoda li a:hover{
 background-color: #000;
 color: #fff;
 cursor: pointer;
     
 }
 .style-look li {
-    padding: 8px;
+    padding: 4px 6px;
 }
-
+.Account{
+    display: none;
+}
+.last-icon{
+    display: none;
+}
 @media(max-width:980px) {
 
-    .btn i {
-        display: block;
-    }
     .style-look li a{
         text-decoration: none;
         color: #456767;
@@ -172,11 +205,9 @@ cursor: pointer;
     .style-look.trast{
         display: block;
     }
-    .list-nav.showactive{
-        display: block;
-    }
+    
 
-    .last-icon i {
+    .last-icon {
         display: block;
     }
 
@@ -190,10 +221,26 @@ cursor: pointer;
         display: none;
 
     }
+    .ico{
+        display: none;
+    }
+   
 
 }
 
-@media(max-width:790px) {
+@media(max-width:860px) {
+    
+    
+    .Account{
+        display: block;
+    }
+    .droll-p{
+        display: none;
+    }
+   
+    .transt-parent-2{
+        display: none;
+    }
     .Logo i {
         font-size: 1.3rem;
         font-weight: 400;
@@ -208,20 +255,18 @@ cursor: pointer;
         color: #fff;
         list-style: none;
         left: 0;
-        /* width: 0; */
+       
         z-index: 56;
-        /* display: none; */
+        
         transition: all .2s ease-in;
     }
 
     .click-for.active {
-        /* width: 30px; */
-
         display: block;
     }
-
     .click-for li {
-        padding: 1rem 0;
+        font-size: 15px;
+        padding: 4px 0;
     }
 
     #section {
@@ -233,18 +278,24 @@ cursor: pointer;
         border: 1px solid gray;
         width: 100%;
         position: absolute;
-        top: 2rem;
+        top: 1.5rem;
         right: 0;
         /* z-index: ; */
         margin: .5rem 0;
     }
 
-    .ico{
-        display: none;
-    }
+    
 
 }
+@media(max-width:790px) {
+    .trackIcon{
+        display: none;
+    }
+    .list-nav.showactive{
+        display: block;
+    }
 
+} 
 @media(max-width:550px) {
     
     .Logo h1 {

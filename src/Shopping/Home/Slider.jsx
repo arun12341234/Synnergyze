@@ -190,8 +190,8 @@ const Slider = () => {
                         <div className='text-part'>
                             <div className='img-text'>
                                 <img src="https://www.industrybuying.com/static/images/mobile.png" alt="" />
-                                <p style={{ fontSize: "13px" }}>Enter your phone number  to
-                                    <p style={{ margin: "5px 0" }}>Get Upto 5% Off</p></p>
+                                <p style={{ fontSize: "12px" }}>Enter your phone number to
+                                    <p style={{ margin: "2px 0" }}>Get Upto 5% Off</p></p>
                             </div>
 
                             <input type="text" placeholder='enter your num' />
@@ -227,7 +227,6 @@ const Slider = () => {
                        
                 
                 <div >
-                    {/* <img  src="https://static3.industrybuying.com/homepage/1695645047Monataro.png" alt=""/> */}
                     <img src="https://static3.industrybuying.com/homepage/1695626687RHS_Banner_2.png" alt=""/>
                 </div>
 

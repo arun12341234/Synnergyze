@@ -1,0 +1,275 @@
+.row-shaw {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(white, brown, #fff, #765458);
+}
+
+#Login-Register {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    /*  */
+    border-radius: 13px;
+
+}
+
+.up-img {
+    height: 600px;
+    background-size: cover;
+    border-radius: 10px;
+    background-position: right;
+    max-width: 400px;
+    overflow: hidden;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-image: url(https://www.industrybuying.com/static/images/login_left.svg);
+
+
+}
+
+.topper {
+
+    margin: .5rem 0;
+}
+
+.topper img {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.img-coll {
+    display: block;
+    width: 80%;
+    margin: 1rem auto;
+}
+
+.tower:hover {
+    background-color: #DB3E19;
+}
+
+.tower img {
+    text-align: center;
+    width: 100%;
+    max-width: 37px;
+}
+
+.Register {
+   
+  box-sizing: border-box;
+    border-radius: 10px;
+    height: 600px;
+    width: 150%;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #F8F9FB;
+}
+
+.tower {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #9195c4ed;
+    height: 50px;
+    border-radius: 100px;
+    color: #fff;
+    display: block;
+    float: left;
+    line-height: 50px;
+    width: 100%;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+
+
+.tower img {
+    background-color: #fff;
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    float: left;
+    margin-right: 10px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.before-login input {
+    border: 2px solid #8F8F8F;
+    width: 150%;
+    height: 45px;
+    padding: 10px;
+    font-weight: 600;
+    color: #232F3E;
+    border-radius: 4px;
+    position: relative;
+    background-color: #fff;
+}
+
+.iput-package input[type=text] {
+    width: 100%;
+    padding: 12px 30px;
+    margin: 8px auto;
+}
+
+.before-login p {
+    font-size: 12px;
+}
+
+.child-hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.child-hero p {
+    position: relative;
+    bottom: .5rem;
+}
+
+.Register img {
+    margin: 1rem 0;
+}
+
+.lower-drama {
+    width: 380px;
+    height: .8px;
+    background-color: #2f2f30;
+}
+
+.btn-2 {
+    margin: 1rem 0;
+    background-color: #DB3E19;
+    color: #fff;
+    font-size: 14px;
+    padding: 16px 40px;
+    border: 0;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.drama h3 {
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+    padding: 20px;
+    border-bottom: 1px solid #ededed;
+    text-transform: uppercase;
+    color: #232F3E;
+}
+
+.lower-power {
+    margin: 1rem 0;
+    color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.lower-2 {
+    width: 100px;
+    background-color: gray;
+    height: 2px;
+}
+
+.login-fg {
+    margin: 1rem 0;
+}
+
+.login-fg button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    color: #DB3E19;
+    margin: 8px 0;
+    border: 1px solid #DB3E19;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    width: 200px;
+
+}
+
+.close-1 {
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+}
+
+.close-1 i {
+    cursor: pointer;
+    font-size: 2em;
+    color: gray;
+}
+
+a {
+    text-decoration: none;
+}
+
+.top-img img {
+    display: none;
+}
+
+.before-login {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media(max-width:780px) {
+    .close {
+        cursor: pointer;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .up-img {
+        display: none;
+    }
+
+    .row-shaw {
+        height: auto;
+    }
+
+    .Register {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .top-img img {
+        display: block;
+        height: 150px;
+    }
+}
+
+@media(max-width:780px) {
+    .before-login input {
+        border: 2px solid #8F8F8F;
+        width: 120%;
+        font-weight: 300;
+        color: #232F3E;
+        border-radius: 4px;
+        background-color: #fff;
+        margin: 1rem auto;
+    }
+}
