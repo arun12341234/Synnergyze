@@ -46,6 +46,7 @@ const Footer = () => {
             <li>Power Tools</li>
         </ul>
       </div>
+      <p className='backGrou'>Copyright © industrybuying.com 2013-2022 All Right Reserved | Privacy Policy | Terms & Conditions</p>
     </footer>
   )
 }

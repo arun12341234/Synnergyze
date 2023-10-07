@@ -1,8 +1,21 @@
-.img-sell{
+.img-sell {
     margin: 1rem auto;
     width: 80%;
     display: block;
 }
-.best{
+
+.best {
     text-align: center;
+}
+
+.h3-text {
+    font-size: 16px;
+    color: #444;
+    text-decoration: line-through;
+}
+
+.roll-caste {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
 }

@@ -8,15 +8,20 @@ span{
     color: green;
 }
 .brand-part{
-    width: 280px;
+    width: 200px;
     overflow: hidden;
-    border: 1px solid green;
-    margin:.5rem;
+    border: 1px solid rgb(231, 231, 231);
+    margin:.3rem;
 }
-.brand-part p {
-    width: 80%;
+.brand-part p{
+    font-size: 13px;
 }
 
 .port-p p{
 font-size: 13px;
+}
+.p-sectio{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }

@@ -1,9 +1,10 @@
-#footer-2{
+#footer-2 {
     background: #131a22;
     color: #757575;
 }
-.text-header{
-   
+
+.text-header {
+
     margin: 2rem 0;
     display: flex;
     align-items: center;
@@ -11,27 +12,46 @@
     text-align: center;
     gap: 2rem;
 }
-.list-tooper{
+
+.list-tooper {
     display: flex;
     justify-content: space-between;
 }
-.list-tooper ul{
+
+.list-tooper ul {
     color: #757575;
     list-style-type: none;
 }
-@media(max-width:700px){
-    .list-tooper ul{
+
+.backGrou {
+    text-align: center;
+    font-family: open sans regular;
+    color: #d3d3d3;
+    line-height: 42px;
+    margin-top: 1remgit;
+    background: #232f3e;
+}
+
+@media(max-width:700px) {
+    .list-tooper ul {
         font-size: 15px;
     }
-    .text-header h2{
+
+    .text-header h2 {
         font-size: 18px;
     }
 }
-@media(max-width:500px){
-    .text-header h2{
+
+@media(max-width:500px) {
+    .backGrou {
+        font-size: 13px;
+    }
+
+    .text-header h2 {
         font-size: 16px;
     }
-    .list-tooper ul{
+
+    .list-tooper ul {
         font-size: 13px;
     }
 }

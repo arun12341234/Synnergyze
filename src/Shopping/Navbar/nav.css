@@ -1,5 +1,5 @@
 #narv {
-    z-index: 27;
+    z-index: 30;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -10,7 +10,7 @@
     position: fixed;
     left: 0;
     right: 0;
-    top: 1.3rem;
+    top: 1rem;
 }
 
 .Logo span {
@@ -29,7 +29,7 @@
     padding: .6rem 2.3rem;
     font-size: 12px;
     color: #fff;
-    background-color: rgb(151, 84, 29);
+    background-color: #e9611e;
     border: none;
     border-radius: 2px;
     font-family: 'Roboto', sans-serif;
