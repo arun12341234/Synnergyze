@@ -1,27 +1,56 @@
+
+
 #brand-value {
-  display: flex;
-  justify-content: space-around;
-   flex-wrap: wrap;
-  
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
-span{
+
+span {
     color: green;
 }
-.brand-part{
-    width: 200px;
+
+.brand-part {
+    cursor: pointer;
+    width: 14rem;
+    height: fit-content;
     overflow: hidden;
     border: 1px solid rgb(231, 231, 231);
-    margin:.3rem;
+   
 }
-.brand-part p{
+
+.brand-part p {
     font-size: 13px;
 }
 
-.port-p p{
-font-size: 13px;
+.brand-part a {
+    text-decoration: underline;
 }
-.p-sectio{
+
+.active-two {
+    margin: 1rem 0;
+}
+
+.link-app{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: .5rem;
+}
+.link-app Button{
+    margin: .5rem 0;
+}
+
+
+.port-p p {
+    font-size: 13px;
+}
+
+.p-sectio {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: rgb(24, 138, 24);
 }
