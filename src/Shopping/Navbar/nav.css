@@ -27,7 +27,7 @@
     left: 1rem;
     font-weight: 400;
     padding: .6rem 2.3rem;
-    font-size: 12px;
+    font-size: 14px;
     color: #fff;
     background-color: #e9611e;
     border: none;
@@ -38,7 +38,7 @@
 .serach- {
     font-family: 'Roboto', sans-serif;
     padding: .6rem 2.3rem;
-    font-size: 12px;
+    font-size: 14px;
 font-weight: 4000;
     background-color: #fff;
     border: none;
@@ -132,6 +132,7 @@ margin: 0 6px;
     cursor: pointer;
     background-color: #fff;
     color: #000;
+   
 }
 .list-nav {
     display: none;
@@ -171,12 +172,13 @@ margin: 0 6px;
     background: #fff;
     color: gray;
 }
-.uderoda li{
+.uderoda li a{
     color: #000;
+    
 }
 .uderoda li a:hover{
 background-color: #000;
-color: #fff;
+color: red;
 cursor: pointer;
     
 }

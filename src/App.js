@@ -6,9 +6,7 @@ import Slider from './Shopping/Home/Slider';
 import Brand from './Shopping/Product/Brand';
 import Best from './Shopping/Product-1/Best';
 import Text from './Shopping/Description/Text';
-
 import Footer from './Shopping/Footer-sec/Footer';
-import Search from './Shopping/Search/Search';
 import Login from './Shopping/Login/Login';
 
 
@@ -27,10 +25,9 @@ const App = () => {
             <Footer />
           </div>
         } />
-        <Route path='/search' element={<Search />} />
         
         <Route path='/login' element={<Login />} />
-        <Route path='/search' element={<Search />} />
+       
       </Routes>
     </Router>
   )

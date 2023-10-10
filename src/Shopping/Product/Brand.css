@@ -1,5 +1,3 @@
-
-
 #brand-value {
     display: flex;
     justify-content: space-around;
@@ -7,7 +5,7 @@
 }
 
 span {
-    color: green;
+    color: rgb(18, 134, 18);
 }
 
 .brand-part {
@@ -16,7 +14,38 @@ span {
     height: fit-content;
     overflow: hidden;
     border: 1px solid rgb(231, 231, 231);
-   
+
+}
+
+.Link-p {
+    height: 0;
+    opacity: 0;
+    width: 0;
+}
+
+.brand-part:hover .Link-p {
+    height: fit-content;
+    opacity: 1;
+    width: auto;
+}
+
+.brand-part img {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.brand-part:hover .img-1 {
+    height: 0;
+    width: 0;
+    opacity: 0;
+}
+
+.brand-part:hover .link-app {
+    width: auto;
+    height: fit-content;
+    opacity: 1;
+
 }
 
 .brand-part p {
@@ -31,15 +60,18 @@ span {
     margin: 1rem 0;
 }
 
-.link-app{
-   
+.link-app {
+    width: 0;
+    height: 0;
+    opacity: 0;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     margin-top: .5rem;
 }
-.link-app Button{
+
+.link-app Button {
     margin: .5rem 0;
 }
 
@@ -53,4 +85,21 @@ span {
     justify-content: space-between;
     align-items: center;
     color: rgb(24, 138, 24);
+}
+
+@media(max-width:446px) {
+    .brand-part {
+        cursor: pointer;
+        width: 100%;
+        height: fit-content;
+        overflow: hidden;
+        border: 1px solid rgb(231, 231, 231);
+
+    }
+
+    .brand-part img {
+        display: block;
+        margin: 50%;
+        margin: 0 auto;
+    }
 }
