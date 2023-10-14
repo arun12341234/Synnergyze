@@ -7,6 +7,10 @@ const Brand = () => {
 
 
   return (
+    <>
+     <div className='Power'>
+                <h3>IB Power Brands</h3>
+            </div>
     <main id="brand-value">
       <div className='brand-part'   >
         <img className='img-1' width={150} height={180} src="https://static1.industrybuying.com/products/agriculture-garden-landscaping/tillers-and-cultivator/cultivator/AGR.CUL.42018780_1682509652621.webp" alt="" />
@@ -285,6 +289,7 @@ const Brand = () => {
         </div>
       </div>
     </main>
+    </>
 
 
 

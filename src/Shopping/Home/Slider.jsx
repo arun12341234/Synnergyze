@@ -98,9 +98,7 @@ const Slider = () => {
                         <img src="https://static3.industrybuying.com/homepage/1696482767RHS-Banner.png" alt="" />
                     </div>
                 </main>
-            <div className='Power'>
-                <h3>IB Power Brands</h3>
-            </div>
+           
         </div>
 
     )

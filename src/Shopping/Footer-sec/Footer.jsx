@@ -4,9 +4,9 @@ const Footer = () => {
   return (
     <footer id='footer-2'>
         <div className='text-header'>
-            <h2 style={{color:"#fff"}}>Shop All Categories</h2>
-            <h2>Shop All Brands</h2>
-            <h2>Popular Searches</h2>
+            <h3 style={{color:"#fff"}}>Shop All Categories</h3>
+            <h3>Shop All Brands</h3>
+            <h3>Popular Searches</h3>
         </div>
         <hr />
       <div className='list-tooper'>

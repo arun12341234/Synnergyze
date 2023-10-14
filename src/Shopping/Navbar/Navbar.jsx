@@ -22,7 +22,7 @@ const Navbar = () => {
       <nav id='narv'>
         <div className='Logo'>
           <i class="ri-menu-line" onClick={toggle}></i>
-          <h1>industy<span >buying</span></h1>
+          <img width={"110px"} height={"60px"} src="https://saasapps.in:2082/media/documents/SASCONIT_logo.png" alt="" />
         </div>
         <ul className={`click-for  ${click && 'active'}`}>
           <li>Agriculture Garden & Landscaping<i class="ri-add-line"></i></li>
@@ -45,7 +45,7 @@ const Navbar = () => {
           </select>
 
           {window.innerWidth = "790" ?
-            <Link to="/"> <input type="Search" placeholder='Search Product' className='serach-' /></Link>
+            <input type="Search" placeholder='Search Product' className='serach-' />
             : <input type="Search" placeholder='Search Product' className='serach-' />
           }
           <button className='ico'> <i class="ri-search-2-line "></i></button>

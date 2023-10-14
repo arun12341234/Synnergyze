@@ -1,0 +1,100 @@
+.outer{
+    margin: 3rem 0;
+}
+
+#both-side{
+    box-sizing: border-box;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   background: #d3d3d6;
+    border-radius: 90px;
+    width: 22rem;
+  height: 6rem;
+   margin: 0  auto;
+    color: #cbf75c;
+    font-family: 'Open Sans', sans-serif;
+}
+.button button{
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    width: 10rem;
+    height: 5rem;
+    border: none;
+    outline: none;
+    border-radius: 90px;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+ 
+
+.circule-img{
+    width: 6rem;
+    height: 6rem;
+    background: #b3b3b4;
+    border-radius: 50%;
+  
+  cursor: pointer;
+  transition: .2s;
+}
+.circule-img:hover{
+    border: 2px solid green;
+}
+.circule-img img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.fiter-product{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.add-text{
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.add-text p{
+    text-align: center;
+   margin: 0 auto;
+    width: 90%;
+    color: #42526e;
+  font-size: 20px;
+  font-weight: 400;
+ 
+}
+@media(max-width:470px){
+    #both-side{
+        width: 20rem;
+        height: 4rem;
+        margin: 0 auto;
+    }
+    .button button{
+        width: 9rem;
+        height: 3rem;
+        margin: 0 auto;
+        font-size: 1rem;
+        font-weight: 300;
+    }
+}
+@media(max-width:370px){
+    #both-side{
+        width: 15rem;
+        height: 4rem;
+        margin: 0 auto;
+    }
+    .button button{
+        width: 7rem;
+        height: 3rem;
+        margin: 0 auto;
+        font-size: 1rem;
+        font-weight: 250;
+    }
+}
