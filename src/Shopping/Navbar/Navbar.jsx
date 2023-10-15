@@ -22,7 +22,7 @@ const Navbar = () => {
       <nav id='narv'>
         <div className='Logo'>
           <i class="ri-menu-line" onClick={toggle}></i>
-       <Link to={"/"}><img width={"110px"} height={"60px"} src="https://saasapps.in:2082/media/documents/SASCONIT_logo.png" alt="" />
+       <Link to={"/"}><img  src="https://saasapps.in:2082/media/documents/SASCONIT_logo.png" alt="" />
        </Link>
         </div>
         <ul className={`click-for  ${click && 'active'}`}>
@@ -54,7 +54,8 @@ const Navbar = () => {
         </div>
         <div className='btn'>
       <div className='Account'>
-          <AccountCircleIcon onClick={button} /></div>
+          <AccountCircleIcon className='circul' onClick={button} />
+          </div>
          
           <Link to='./login'>  <button>Login/Register</button> </Link>
         </div>

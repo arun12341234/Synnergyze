@@ -1,5 +1,7 @@
 import React from 'react'
 import { Button } from '@mui/material'
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import TornadoIcon from '@mui/icons-material/Tornado';
 const ReshaMandi = () => {
   return (
     <div  className='top-down-button'>
@@ -60,14 +62,23 @@ const ReshaMandi = () => {
           <span>VIETNAM(1)</span>
         </div>
       </div>
-     <div className='tudu-img'>
+      <div className='tudu-img'>
+      <div className='show-sort'>
+        <h1>Showing 58 products</h1>
+        <div className='show-icon'>
+          <TornadoIcon/>
+        <h1>Sort By</h1>
+        <ExpandMoreIcon/>
+        </div>
+      </div>
+      <div className='btnn-img'>
       <div className="img-collection">
         <img src="https://reshamandi.com/_next/image?url=https%3A%2F%2Fdh54ynjtfu9e2.cloudfront.net%2Fimages%2FSTBV0003.png&w=640&q=75" alt="" />
-      <Button variant="outlined" sx={{px:'3rem'}}> +Add </Button>
+      <Button variant="outlined" sx={{px:'3rem'}}>+Add </Button>
       </div>
       <div className="img-collection">
         <img src="https://reshamandi.com/_next/image?url=https%3A%2F%2Fdh54ynjtfu9e2.cloudfront.net%2Fimages%2FSTBV0003.png&w=640&q=75" alt="" />
-        <Button variant="outlined" sx={{px:'3rem'}}> +Add </Button>
+        <Button variant="outlined" sx={{px:'3rem'}}>+Add </Button>
       </div>
       <div className="img-collection">
         <img src="https://reshamandi.com/_next/image?url=https%3A%2F%2Fdh54ynjtfu9e2.cloudfront.net%2Fimages%2FSTBV0003.png&w=640&q=75" alt="" />
@@ -76,6 +87,7 @@ const ReshaMandi = () => {
       <div className="img-collection">
         <img src="https://reshamandi.com/_next/image?url=https%3A%2F%2Fdh54ynjtfu9e2.cloudfront.net%2Fimages%2FSTBV0003.png&w=640&q=75" alt="" />
         <Button variant="outlined" sx={{px:'3rem '}}>+Add </Button>
+      </div>
       </div>
      </div>
   

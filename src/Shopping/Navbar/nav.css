@@ -10,17 +10,14 @@
     position: fixed;
     left: 0;
     right: 0;
-    top: 1rem;
+    top: 1.1rem;
 }
 
-.Logo span {
-    color: rgb(226, 150, 88);
+.Logo img{
+    width:110px;
+     height:60px;
 }
 
-.Logo h1 {
-    font-size: 1.8rem;
-    font-weight: 500;
-}
 
 #section {
     position: relative;
@@ -39,7 +36,7 @@
     font-family: 'Roboto', sans-serif;
     padding: .6rem 2.3rem;
     font-size: 14px;
-font-weight: 4000;
+    font-weight: 4000;
     background-color: #fff;
     border: none;
     border-radius: 3px;
@@ -51,28 +48,31 @@ font-weight: 4000;
 
 .btn button {
     background-color: #db3f1f;
-  padding: 10px 8px;
-  font-weight: 600;
-  border-radius: 2px;
-  font-size: 12px;
-  text-align: center;
-  white-space: nowrap;
-  color: #fff;
-  border: none;
+    padding: 10px 8px;
+    font-weight: 600;
+    border-radius: 2px;
+    font-size: 12px;
+    text-align: center;
+    white-space: nowrap;
+    color: #fff;
+    border: none;
 }
 
-.trackIcon{
+.trackIcon {
     display: flex;
 }
-.trackIcon i{
+
+.trackIcon i {
     font-size: 1.7em;
 }
-.child{
+
+.child {
     font-weight: 400;
     font-size: 12px;
 }
-.icon-store{
-  justify-content: center;
+
+.icon-store {
+    justify-content: center;
     display: flex;
 }
 
@@ -86,28 +86,32 @@ font-weight: 4000;
     background-color: transparent;
 }
 
-.transt-parent{
+.transt-parent {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.transt-parent img{
-margin: 0 6px;
+
+.transt-parent img {
+    margin: 0 6px;
 }
-.transt-parent-2{
+
+.transt-parent-2 {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-.transt-parent-2 span{
+
+.transt-parent-2 span {
     background-color: #fff;
     color: #000;
     padding: 1px 8px;
     border-radius: 5px;
     font-size: 12px;
 }
-.transt-parent-2 p{
+
+.transt-parent-2 p {
     font-size: 13px;
 }
 
@@ -124,20 +128,23 @@ margin: 0 6px;
 .click-for {
     display: none;
 }
-.click-for li{
+
+.click-for li {
     background-color: #000;
     color: #fff;
 }
-.click-for li:hover{
+
+.click-for li:hover {
     cursor: pointer;
     background-color: #fff;
     color: #000;
-   
+
 }
+
 .list-nav {
     display: none;
     position: absolute;
-    top: 3.4rem;
+    top: 4.5rem;
     right: 0;
     z-index: 67;
     background-color: #000;
@@ -167,53 +174,66 @@ margin: 0 6px;
     display: none;
     list-style-type: none;
     position: absolute;
-    top: 2rem;
-    right: 5rem;
+    top: 3.1rem;
+    right: 4.6rem;
     background: #fff;
     color: gray;
 }
-.uderoda li a{
+
+.uderoda li a {
+
     color: #000;
-    
+    padding: 4px 20px;
 }
-.uderoda li a:hover{
-background-color: #000;
-color: red;
-cursor: pointer;
-    
+
+.uderoda li a:hover {
+
+    background-color: #000;
+    color: #ffff;
+    cursor: pointer;
+
 }
+
 .style-look li {
     padding: 4px 6px;
 }
-.Account{
+
+.Account {
     display: none;
 }
-.last-icon{
+
+.last-icon {
     display: none;
 }
+
 @media(max-width:980px) {
 
-    .style-look li a{
+    .style-look li a {
         text-decoration: none;
         color: #456767;
     }
-    .style-look li a:hover{
+
+    .style-look li a:hover {
         color: #fff;
     }
-    .style-look li:hover{
+
+    .style-look li:hover {
         color: #fff;
         background-color: #4d1f1f;
     }
-    .style-look.trast{
+
+    .style-look.trast {
         display: block;
     }
-    
+
 
     .last-icon {
+        font-size: 2em;
         display: block;
     }
 
     #narv {
+        align-items: center;
         height: fit-content;
     }
 
@@ -223,28 +243,44 @@ cursor: pointer;
         display: none;
 
     }
-    .ico{
+
+    .ico {
         display: none;
     }
-   
+    .transt-parent img {
+       width: 60px;
+       height: 35px;
+    }
 
 }
 
 @media(max-width:860px) {
-    
-    
-    .Account{
+    .Logo img{
+        display: block;
+      margin: 0 auto;
+        width:105px;
+         height:50px;
+    }
+
+    .Account .circul {
+        font-size: 2.5em;
+    }
+
+    .Account {
+
         display: block;
     }
-    .droll-p{
+
+    .droll-p {
         display: none;
     }
-   
-    .transt-parent-2{
+
+    .transt-parent-2 {
         display: none;
     }
+
     .Logo i {
-        font-size: 1.3rem;
+        font-size: 2rem;
         font-weight: 400;
         padding: 0 12px;
         display: block;
@@ -257,16 +293,20 @@ cursor: pointer;
         color: #fff;
         list-style: none;
         left: 0;
-       
+
         z-index: 56;
-        
+
         transition: all .2s ease-in;
     }
 
     .click-for.active {
         display: block;
     }
+
     .click-for li {
+        background-color: #000;
+        color: #fff;
+
         font-size: 15px;
         padding: 4px 0;
     }
@@ -280,30 +320,41 @@ cursor: pointer;
         border: 1px solid gray;
         width: 100%;
         position: absolute;
-        top: 1.5rem;
+        top: 2.3rem;
         right: 0;
         /* z-index: ; */
         margin: .5rem 0;
     }
 
-    
+
 
 }
+
 @media(max-width:790px) {
-    .trackIcon{
+    .trackIcon {
         display: none;
     }
-    .list-nav.showactive{
+
+    .list-nav.showactive {
         display: block;
     }
-
-} 
-@media(max-width:550px) {
-    
-    .Logo h1 {
-        font-size: 1.3rem;
-        font-weight: 400;
+    .Logo img{
+        display: block;
+      margin: 0 auto;
+        width:100px;
+         height:45px;
     }
-    
+
+}
+
+@media(max-width:550px) {
+
+    .Logo img{
+        
+        margin: 0 auto;
+        width:90px;
+         height:45px;
+    }
+
 
 }
