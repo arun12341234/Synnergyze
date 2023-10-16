@@ -3,29 +3,37 @@ import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 import './nav.css'
 import { Link } from 'react-router-dom';
+
+
 const Navbar = () => {
   const [click, setClick] = useState(false);
+  
   const toggle = () => {
-    setClick(!click)
+    setClick(!click);
+   
   }
+  
 
   const [show, setShow] = useState(false);
   const showT = () => {
-    setShow(!show)
+    setShow(!show);
+    
   }
   const [but, setbut] = useState(false);
   const button = () => {
-    setbut(!but)
+    setbut(!but);
+  
   }
   return (
     <div>
       <nav id='narv'>
         <div className='Logo'>
+         
           <i class="ri-menu-line" onClick={toggle}></i>
        <Link to={"/"}><img  src="https://saasapps.in:2082/media/documents/SASCONIT_logo.png" alt="" />
        </Link>
         </div>
-        <ul className={`click-for  ${click && 'active'}`}>
+        <ul className={`click-for  ${click && 'active'}`} >
           <li>Agriculture Garden & Landscaping<i class="ri-add-line"></i></li>
           <li>Power Tools <i class="ri-add-line"></i></li>
           <li>Material Handling and Packaging<i class="ri-add-line"></i></li>

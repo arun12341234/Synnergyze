@@ -11,7 +11,7 @@
     font-family: "Satoshi", sans-serif
 }
 .h1p{
-    margin-left: 2.5rem;
+    margin-left: 2rem;
 }
 .h1p h1 {
    
@@ -34,6 +34,7 @@
 .rockp-start {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
 }
@@ -63,7 +64,8 @@
 }
 
 .finish-top {
-    margin: 1rem 0;
+   
+    margin: .5rem 0;
 }
 
 .finish-top input[type="checkbox"] {
@@ -73,7 +75,7 @@
 }
 
 .finish-top span {
-
+    text-align: center;
     margin-left: .6rem;
     font-size: 1rem;
     color: #42526e;
@@ -94,30 +96,32 @@
     color: #091e42;
 }
 .img-collection{
-   
+   margin: .3rem 0;
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin: .4rem 0;
+
 }
 
 .img-collection img {
-    margin: 0 .6rem;
     border-radius: 8px;
     width: 14rem;
     height: fit-content;
 }
 
 .show-sort{
-  
     align-items: center;
     display: flex;
-    gap:39rem;
+    justify-content: space-between;
+    
 }
-.item-list{
-    width: 20%;
-   border: 1px solid rgb(240, 234, 234);
+.tudo-list{
+    border: 1px solid rgb(240, 234, 234);
+    width: 30%;
+    margin: 0 auto;
+    cursor: pointer;
 }
+
 .show-icon{
     display: flex;
     align-items: center;
@@ -129,33 +133,17 @@
     justify-content: space-around;
     flex-wrap: wrap;
 }
-@media(max-width:1090){
-    .show-sort{
-  
-       
-        gap:28rem;
-    }
+.item-list{
+    width: 80%;
+    margin: 1rem auto;
     
 }
 @media(max-width:928px) {
-    .show-sort{
-
-        gap:28rem;
-    }
-    .show-sort{
-        justify-content: space-around;
-        gap:0;
-     }
-    
-    .item-list{
+    .tudo-list{
         display: none;
     }
 }
 @media(max-width:850px) {
-    .show-sort{
-        gap: 28rem;
-     }
-    
     .h1p {
         display: none;
     }
@@ -166,9 +154,12 @@
 }
 
 @media(max-width:560px) {
-    .show-sort{
-        display: none;
+    .img-collection img {
+       
+        width: 13rem;
+       
     }
+    
     
     .rocket-img img {
        
@@ -181,31 +172,34 @@
     
 }
     @media(max-width:756px){
-        .show-sort{
-           gap: 21rem;
+        .img-collection{
+            margin: .4rem 0;
         }
+       
         .rocket-img img {
             
             margin: 0 2.8rem;
         }
-        .img-collection img {
        
-            width: 10rem;
-            margin: 0 .3rem;
-            height: fit-content;
-           
-        }
     }
     @media(max-width:635px){ 
-        .show-sort{
-            gap: 17rem;
-         }
+       
+        
         .rocket-img img {
            
             margin: 0 1.5rem;
         }
     }
     @media(max-width:490px){ 
+        .show-sort{
+            display: none;
+        }
+        .img-collection img {
+      
+            width: 10rem;
+           
+        }
+        
         
         .rocket-img img {
            
@@ -214,6 +208,7 @@
     }
     
     @media(max-width:400px){
+        
         .rocket-img img {
            
             margin: 0 .4rem;

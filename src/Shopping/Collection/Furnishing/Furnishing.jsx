@@ -40,6 +40,7 @@ const Furnishing = () => {
       </div>
     </main>
     <section id='ropper-disk'>
+      <div className='tudo-list'>
       <div className='item-list'>
         <h1>Cocoon Type</h1>
         <div className='finish-top'>
@@ -63,9 +64,68 @@ const Furnishing = () => {
           <span>VIETNAM(1)</span>
         </div>
       </div>
-      <div className='tudu-img'>
+      <div className='item-list'>
+        <h1>Twist Type</h1>
+        <div className='finish-top'>
+          <input type="checkbox" />
+          <span>Warp - 2ply(5)</span>
+        </div>
+        <div className='finish-top'>
+          <input type="checkbox" />
+          <span>Weft - 2ply(5)</span>
+        </div>
+        <div className='finish-top'>
+          <input type="checkbox" />
+          <span>Weft - 3ply(1)</span>
+        </div>
+        
+      </div>
+      <div className='item-list'>
+        <h1>Yarn Type</h1>
+        <div className='finish-top'>
+          <input type="checkbox" />
+          <span>Cotton Gassed Mercerized Yarn(3)</span>
+        </div>
+        <div className='finish-top'>
+          <input type="checkbox" />
+          <span>Linen Yarn(7)</span>
+        </div>
+        <div className='finish-top'>
+          <input type="checkbox" />
+          <span>Open End(6)</span>
+        </div>
+        <div className='finish-top'>
+          <input type="checkbox" />
+          <span>Raw(9)</span>
+        </div>
+        <div className='finish-top'>
+          <input type="checkbox" />
+          <span>Ring Spun Carded(5)</span>
+        </div>
+        <div className='finish-top'>
+          <input type="checkbox" />
+          <span>Twisted(11)</span>
+        </div>
+        <div className='finish-top'>
+          <input type="checkbox" />
+          <span>Viscose Yarn(13)</span>
+        </div>
+        
+      </div>
+      <div className='item-list'>
+        <h1>Colors</h1>
+        <div className='finish-top'>
+          <input type="checkbox" />
+          <span>Rfd(58)</span>
+        </div>
+        
+       
+        
+      </div>
+      </div>
+     <div className='tudu-img'>
       <div className='show-sort'>
-        <h1>Showing 58 products</h1>
+        <h1>Showing 8 products</h1>
         <div className='show-icon'>
           <TornadoIcon/>
         <h1>Sort By</h1>
@@ -88,6 +148,22 @@ const Furnishing = () => {
       <div className="img-collection">
         <img src="https://reshamandi.com/_next/image?url=https%3A%2F%2Fdh54ynjtfu9e2.cloudfront.net%2Fimages%2FSTBV0003.png&w=640&q=75" alt="" />
         <Button variant="outlined" sx={{px:'3rem '}}>+Add </Button>
+      </div>
+      <div className="img-collection">
+        <img src="https://reshamandi.com/_next/image?url=https%3A%2F%2Fdh54ynjtfu9e2.cloudfront.net%2Fimages%2FSTBV0003.png&w=640&q=75" alt="" />
+      <Button variant="outlined" sx={{px:'3rem'}}>+Add </Button>
+      </div>
+      <div className="img-collection">
+        <img src="https://reshamandi.com/_next/image?url=https%3A%2F%2Fdh54ynjtfu9e2.cloudfront.net%2Fimages%2FSTBV0003.png&w=640&q=75" alt="" />
+      <Button variant="outlined" sx={{px:'3rem'}}>+Add </Button>
+      </div>
+      <div className="img-collection">
+        <img src="https://reshamandi.com/_next/image?url=https%3A%2F%2Fdh54ynjtfu9e2.cloudfront.net%2Fimages%2FSTBV0003.png&w=640&q=75" alt="" />
+      <Button variant="outlined" sx={{px:'3rem'}}>+Add </Button>
+      </div>
+      <div className="img-collection">
+        <img src="https://reshamandi.com/_next/image?url=https%3A%2F%2Fdh54ynjtfu9e2.cloudfront.net%2Fimages%2FSTBV0003.png&w=640&q=75" alt="" />
+      <Button variant="outlined" sx={{px:'3rem'}}>+Add </Button>
       </div>
       </div>
      </div>
