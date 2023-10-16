@@ -174,8 +174,8 @@
     display: none;
     list-style-type: none;
     position: absolute;
-    top: 3.1rem;
-    right: 4.6rem;
+    top: 3.2rem;
+    
     background: #fff;
     color: gray;
 }
@@ -227,10 +227,7 @@
     }
 
 
-    .last-icon {
-        font-size: 2em;
-        display: block;
-    }
+   
 
     #narv {
         align-items: center;
@@ -247,14 +244,26 @@
     .ico {
         display: none;
     }
-    .transt-parent img {
-       width: 60px;
-       height: 35px;
+    
+    .Account {
+
+        display: block;
+    }
+    .Account .circul {
+        font-size: 2.5em;
     }
 
 }
 
 @media(max-width:860px) {
+    .transt-parent img {
+       width: 60px;
+       height: 35px;
+    }
+     .last-icon {
+        font-size: 2em;
+        display: block;
+    }
     .Logo img{
         display: block;
       margin: 0 auto;
@@ -262,14 +271,9 @@
          height:50px;
     }
 
-    .Account .circul {
-        font-size: 2.5em;
-    }
+   
 
-    .Account {
-
-        display: block;
-    }
+    
 
     .droll-p {
         display: none;
