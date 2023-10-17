@@ -1,59 +1,64 @@
-.outer{
+.outer {
     margin: 3rem 0;
 }
 
-#both-side{
+#both-side {
     box-sizing: border-box;
     display: flex;
-   align-items: center;
-   justify-content: center;
-   background: #d3d3d6;
+    align-items: center;
+    justify-content: center;
+    background-color: #d3d3d6;
     border-radius: 90px;
-    width: 22rem;
-  height: 6rem;
-   margin: 0  auto;
+    width: 20rem;
+    height: 5rem;
+    margin: 0 auto;
     color: #cbf75c;
     font-family: 'Open Sans', sans-serif;
 }
-.button button{
+
+.button button {
     font-family: 'Open Sans', sans-serif;
     cursor: pointer;
-    width: 10rem;
-    height: 5rem;
+    width: 9.8rem;
+    height: 4.5rem;
     border: none;
     outline: none;
     border-radius: 90px;
     font-size: 1.5rem;
     font-weight: 300;
 }
- 
 
-.circule-img{
+
+.circule-img {
     width: 6rem;
     height: 6rem;
     background: #b3b3b4;
     border-radius: 50%;
-  
-  cursor: pointer;
-  transition: .2s;
+
+    cursor: pointer;
+    transition: .2s;
 }
-.circule-img:hover{
+
+.circule-img:hover {
     border: 2px solid green;
 }
-.circule-img img{
+
+.circule-img img {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
 }
-.fiter-product{
+
+.fiter-product {
     font-family: 'Open Sans', sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 }
-.add-text{
+
+.add-text {
     margin: 2rem;
     display: flex;
     align-items: center;
@@ -61,40 +66,45 @@
     flex-direction: column;
     text-align: center;
 }
-.add-text p{
+
+.add-text p {
     text-align: center;
-   margin: 0 auto;
+    margin: 0 auto;
     width: 90%;
     color: #42526e;
-  font-size: 20px;
-  font-weight: 400;
- 
+    font-size: 20px;
+    font-weight: 400;
+
 }
-@media(max-width:470px){
-    #both-side{
-        width: 20rem;
-        height: 4rem;
-        margin: 0 auto;
-    }
-    .button button{
-        width: 9rem;
-        height: 3rem;
-        margin: 0 auto;
-        font-size: 1rem;
-        font-weight: 300;
-    }
-}
-@media(max-width:370px){
-    #both-side{
+
+@media(max-width:470px) {
+    #both-side {
         width: 15rem;
         height: 4rem;
         margin: 0 auto;
     }
-    .button button{
-        width: 7rem;
+
+    .button button {
+        width: 7.8rem;
+        height: 3.5rem;
+        margin: 0 auto;
+        font-size: 1.4rem;
+        font-weight: 300;
+    }
+}
+
+@media(max-width:370px) {
+    #both-side {
+        width: 13rem;
+        height: 4rem;
+        margin: 0 auto;
+    }
+
+    .button button {
+        width: 6rem;
         height: 3rem;
         margin: 0 auto;
-        font-size: 1rem;
+        font-size: 1.2rem;
         font-weight: 250;
     }
 }

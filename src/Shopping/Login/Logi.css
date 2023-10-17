@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(white, brown, #fff, #765458);
+    background-color:  #d8d5d5;
 }
 
 #Login-Register {

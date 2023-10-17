@@ -1,7 +1,16 @@
 .top-down-button{
     margin-top:8rem;
 }
-
+.ExpandMor{
+    color: #091e42;
+}
+.ExpandMor:hover{
+    transform:rotate(180deg) ;
+}
+.tudu-img{
+    border: 1px solid rgb(235, 232, 232);
+  padding: 20px;
+}
 #cocket-yarns {
     margin: 3rem 0;
     margin-top: 6rem;
@@ -9,6 +18,21 @@
     align-items: center;
     gap: 5rem;
     font-family: "Satoshi", sans-serif
+}
+.full-form{
+    display: none;
+    background-color: gainsboro;
+}
+.full-form.addt{
+    display: block;
+}
+.full-form li a{
+    
+    color: #1f4079;
+}
+.full-form li a:hover{
+    color: #091e42;
+    
 }
 .h1p{
     margin-left: 2rem;
@@ -52,9 +76,9 @@
     flex-direction: column;
 }
 .rocket-img img {
-    margin: 0 1.5rem;
-    width: 74px;
-    height: 74px;
+    margin: 0 2rem;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     transition: all .1s ease-in;
 }
@@ -83,7 +107,7 @@
 }
 
 #ropper-disk {
-   border: 1px solid rgb(218, 216, 216);
+border: 1px solid rgb(235, 232, 232);
     display: flex;
    justify-content: space-evenly;
     margin: 3rem 0;
@@ -96,7 +120,7 @@
     color: #091e42;
 }
 .img-collection{
-   margin: .3rem 0;
+   margin: .3rem;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -110,14 +134,15 @@
 }
 
 .show-sort{
+    
     align-items: center;
     display: flex;
     justify-content: space-between;
     
 }
 .tudo-list{
-    border: 1px solid rgb(240, 234, 234);
-    width: 30%;
+   
+    width: 40%;
     margin: 0 auto;
     cursor: pointer;
 }
@@ -128,9 +153,9 @@
     gap: .2rem;
 }
 .btnn-img{
-    margin-top: 1rem;
+  
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 .item-list{

@@ -25,7 +25,7 @@ const Slider = () => {
                 <div className='list-section' >
                     <ul className='uder-li'>
                         <li> <img src="https://static3.industrybuying.com/navigation/1626345464161209agriculture-garden-landscaping.webp" alt="" /> Agriculture Garden & Landscaping           </li>
-                        <li> <img src="https://static3.industrybuying.com/navigation/161209power-tools.png" alt="" /> Power Tools                 </li>
+                        <li> <img src="https://static3.industrybuying.com/navigation/161209power-tools.png" alt="" /> Power Tools        </li>
                         <li> <img src="https://static3.industrybuying.com/navigation/1626346599161209material-handling.webp" alt="" /> Material Handling and Packaging</li>
                         <li> <img src="https://static3.industrybuying.com/navigation/1626346697161209office-supplies.webp" alt="" /> Office Supplies</li>
                         <li> <img src="https://static3.industrybuying.com/navigation/1627045855testing-measuring.png" alt="" /> Testing and Measuring Instrument</li>

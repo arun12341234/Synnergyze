@@ -1,4 +1,4 @@
-.tex-sect h1 {
+.tex-sect h2 {
     margin: 1rem 0;
 }
 
@@ -8,16 +8,16 @@
 }
 
 @media(max-width:900px) {
-    .tex-sect h1 {
+    .tex-sect h2 {
         text-align: center;
-        font-size: 15px;
+        font-size: 16px;
     }
 
    
 }
 @media(max-width:400px) {
-    .tex-sect h1 {
-        font-size: 14px;
+    .tex-sect h2 {
+        font-size: 15px;
     }
 
    

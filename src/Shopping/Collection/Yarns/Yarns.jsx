@@ -1,10 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../Yarns.css'
 import { Button } from '@mui/material'
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import TornadoIcon from '@mui/icons-material/Tornado';
+
+import { Link } from 'react-router-dom';
+import Movepage from '../Footer-slider/Movepage';
+
 const Yarns = () => {
- 
+ const[closebbtn,setClose] =useState(false)
+ const opeClose= () => {
+  setClose(!closebbtn)
+ }
   return (
     <div  className='top-down-button'>
     <main  id='cocket-yarns'>
@@ -40,6 +47,7 @@ const Yarns = () => {
         
       </div>
     </main>
+    <div>
     <section id='ropper-disk'>
       <div className='tudo-list'>
       <div className='item-list'>
@@ -130,7 +138,15 @@ const Yarns = () => {
         <div className='show-icon'>
           <TornadoIcon/>
         <h1>Sort By</h1>
-        <ExpandMoreIcon/>
+        <div>
+        <ExpandMoreIcon className='ExpandMor' onClick={opeClose}/>
+          <ul className={`full-form ${closebbtn && "addt"}`} style={{fontSize:"1.4rem",listStyle:"none",position:"absolute",right:"0",background:"#fffff",border:"1px solid gray"}}>
+            <li><Link to={{}}>Product</Link></li>
+            <li><Link to={{}}>Rate</Link></li>
+            <li><Link to={{}}>Review</Link></li>
+            <li><Link to={{}}>Price</Link></li>
+          </ul>
+          </div>
         </div>
       </div>
       <div className='btnn-img'>
@@ -168,8 +184,9 @@ const Yarns = () => {
       </div>
       </div>
      </div>
-  
     </section>
+     <Movepage/>
+     </div>
     </div>
   )
 }

@@ -58,7 +58,7 @@ const Footer = () => {
           <li></li>
         </div>
       </main> */}
-      <p className='backGrou'>Copyright © industrybuying.com 2013-2022 All Right Reserved | Privacy Policy | Terms & Conditions</p>
+      <p className='backGrou'>Copyright © sasconit.com 2023 All Right Reserved | Privacy Policy | Terms & Conditions</p>
     </footer>
   )
 }

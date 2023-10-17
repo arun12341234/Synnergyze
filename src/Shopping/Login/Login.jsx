@@ -55,7 +55,7 @@ const Login = () => {
                     {optSyt ? <div className='before-login'>
                         <img src="https://www.industrybuying.com/static/images/security.svg" alt="" />
                         <input type="text" placeholder='Enter your Number or Email' value={otp} onChange={(e) => setOtp(e.target.value)} />
-                         :
+                         
                         {text && <p style={{ color: "red", fontSize: "13px" }}>Please  Enter your Number or Email </p>}
                         <button className='btn-2' onClick={Continue}>Continue</button>
                     </div>

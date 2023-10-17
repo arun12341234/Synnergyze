@@ -27,10 +27,11 @@
     width: 20px;
 }
   .list-section li {
+    display: flex;
+    align-items: center;
       font-family: 'Roboto', sans-serif;
       list-style: none;
       padding:5px;
-
       color: #525d62;
 
   }

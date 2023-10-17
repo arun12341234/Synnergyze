@@ -1,6 +1,7 @@
 #footer-2 {
     background: #131a22;
     color: #757575;
+    font-family: "Satoshi", sans-serif;
 }
 
 .text-header {
@@ -21,16 +22,19 @@
 }
 
 .list-tooper ul {
+    font-family: "Satoshi", sans-serif;
     color: #757575;
     list-style-type: none;
 }
-
+.list-tooper ul li{
+    margin: .5rem 0;
+}
 .backGrou {
     text-align: center;
-    font-family: open sans regular;
+    font-family: "Satoshi", sans-serif;
     color: #d3d3d3;
     line-height: 42px;
-    margin-top: 1remgit;
+    margin-top: 1rem;
     background: hsl(213, 28%, 19%);
 }
 @media(max-width:1130px) {

@@ -15,6 +15,7 @@ import Fabric from './Shopping/Collection/Fabric/Fabric';
 import Furnishing from './Shopping/Collection/Furnishing/Furnishing';
 import Accessory from './Shopping/Collection/Accessory/Accessory';
 import ReshaMandi from './Shopping/Collection/ReshaMandi/ReshaMandi';
+import Movepage from './Shopping/Collection/Footer-slider/Movepage';
 
 
 const App = () => {
@@ -39,16 +40,19 @@ const App = () => {
         <Route path='/collection/yarns' element={<div><Offer />
           <Navbar />
            <Yarns />
+          
           <Footer />
         </div>} />
         <Route path='/collection/apparel' element={<div><Offer />
           <Navbar />
            <Apparel />
+           <Movepage/>
            <Footer />
         </div>} />
         <Route path='/collection/fabric' element={<div><Offer />
           <Navbar />
            <Fabric />
+           <Movepage/>
           <Footer />
         </div>} />
         <Route path='/collection/home-furnishing' element={<div><Offer />
@@ -59,11 +63,13 @@ const App = () => {
          <Route path='/collection/accessory' element={<div><Offer />
           <Navbar />
            <Accessory />
+           <Movepage/>
            <Footer />
         </div>} />
         <Route path='/collection/reshaMandi-exclusive' element={<div><Offer />
           <Navbar /> 
           <ReshaMandi />
+          <Movepage/>
            <Footer />
         </div>} />
 

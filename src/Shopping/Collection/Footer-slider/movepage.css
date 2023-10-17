@@ -1,0 +1,28 @@
+.left-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.letf-icon {
+    font-size: 4em;
+    border: 1px solid rgb(223, 220, 220);
+}
+
+.left-btn:hover {
+    color: #fff;
+    background-color: #0a0909;
+
+}
+
+.three-row span {
+    font-size: 1rem;
+    padding: .5rem;
+    margin: 1rem;
+    border: 1px solid rgb(223, 220, 220);
+}
+
+.three-row span:hover {
+    background-color: #0A0909;
+}
