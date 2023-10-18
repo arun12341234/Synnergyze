@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import TornadoIcon from '@mui/icons-material/Tornado';
 import { Link } from 'react-router-dom';
+import Movepage from '../Footer-slider/Movepage';
 const Fabric = () => {
   const[closebbtn,setClose] =useState(false)
  const opeClose= () => {
@@ -178,6 +179,7 @@ const Fabric = () => {
       <Button variant="outlined" sx={{px:'3rem'}}>+Add </Button>
       </div>
       </div>
+      <Movepage/>
      </div>
   
     </section>

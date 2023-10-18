@@ -1,8 +1,13 @@
 .outer {
-    margin: 3rem 0;
+    margin: 2rem 0;
+    background-color: #b45b5b;
+  
+    
+   
 }
 
 #both-side {
+   
     box-sizing: border-box;
     display: flex;
     align-items: center;
@@ -32,7 +37,7 @@
 .circule-img {
     width: 6rem;
     height: 6rem;
-    background: #b3b3b4;
+    background: #8888b6;
     border-radius: 50%;
 
     cursor: pointer;
@@ -71,7 +76,7 @@
     text-align: center;
     margin: 0 auto;
     width: 90%;
-    color: #42526e;
+    color: #d0d3da;
     font-size: 20px;
     font-weight: 400;
 

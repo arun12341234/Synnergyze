@@ -2,6 +2,7 @@ import React from 'react'
 import { Button } from '@mui/material'
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import TornadoIcon from '@mui/icons-material/Tornado';
+import Movepage from '../Footer-slider/Movepage';
 const Accessory = () => {
   return (
     <div  className='top-down-button'>
@@ -165,6 +166,7 @@ const Accessory = () => {
       <Button variant="outlined" sx={{px:'3rem'}}>+Add </Button>
       </div>
       </div>
+      <Movepage/>
      </div>
   
     </section>

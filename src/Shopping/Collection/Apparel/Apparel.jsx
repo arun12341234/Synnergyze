@@ -2,6 +2,7 @@ import { Button } from '@mui/material'
 import React from 'react'
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import TornadoIcon from '@mui/icons-material/Tornado';
+import Movepage from '../Footer-slider/Movepage';
 const Apparel = () => {
   return (
     <div  className='top-down-button'>
@@ -165,6 +166,7 @@ const Apparel = () => {
       <Button variant="outlined" sx={{px:'3rem'}}>+Add </Button>
       </div>
       </div>
+      <Movepage/>
      </div>
   
     </section>

@@ -183,9 +183,10 @@ const Yarns = () => {
       <Button variant="outlined" sx={{px:'3rem'}}>+Add </Button>
       </div>
       </div>
+      <Movepage/>
      </div>
     </section>
-     <Movepage/>
+   
      </div>
     </div>
   )

@@ -15,7 +15,7 @@ import Fabric from './Shopping/Collection/Fabric/Fabric';
 import Furnishing from './Shopping/Collection/Furnishing/Furnishing';
 import Accessory from './Shopping/Collection/Accessory/Accessory';
 import ReshaMandi from './Shopping/Collection/ReshaMandi/ReshaMandi';
-import Movepage from './Shopping/Collection/Footer-slider/Movepage';
+
 
 
 const App = () => {
@@ -36,45 +36,45 @@ const App = () => {
         } />
 
         <Route path='/login' element={<Login />} />
-        <Route path='*' element={<div style={{textAlign:"center",fontSize:"1.2rem",margin:"2rem 0"}}> <h3> Sorry, this page isn't available.</h3>  <p>The link you followed may be broken, or the page may have been removed.<Link to={"/"}>Go to homepage</Link> </p>  </div>} />
+        <Route path='*' element={<div style={{ textAlign: "center", fontSize: "1.2rem", margin: "2rem 0" }}> <h3> Sorry, this page isn't available.</h3>  <p>The link you followed may be broken, or the page may have been removed.<Link to={"/"}>Go to homepage</Link> </p>  </div>} />
         <Route path='/collection/yarns' element={<div><Offer />
           <Navbar />
-           <Yarns />
-          
+          <Yarns />
+
           <Footer />
         </div>} />
         <Route path='/collection/apparel' element={<div><Offer />
           <Navbar />
-           <Apparel />
-           <Movepage/>
-           <Footer />
+          <Apparel />
+
+          <Footer />
         </div>} />
         <Route path='/collection/fabric' element={<div><Offer />
           <Navbar />
-           <Fabric />
-           <Movepage/>
+          <Fabric />
+
           <Footer />
         </div>} />
         <Route path='/collection/home-furnishing' element={<div><Offer />
-          <Navbar /> 
-          <Furnishing />
-           <Footer />
-        </div>} />
-         <Route path='/collection/accessory' element={<div><Offer />
           <Navbar />
-           <Accessory />
-           <Movepage/>
-           <Footer />
+          <Furnishing />
+          <Footer />
+        </div>} />
+        <Route path='/collection/accessory' element={<div><Offer />
+          <Navbar />
+          <Accessory />
+
+          <Footer />
         </div>} />
         <Route path='/collection/reshaMandi-exclusive' element={<div><Offer />
-          <Navbar /> 
+          <Navbar />
           <ReshaMandi />
-          <Movepage/>
-           <Footer />
+
+          <Footer />
         </div>} />
 
       </Routes>
-      
+
     </Router>
   )
 };

@@ -1,4 +1,5 @@
 .left-right {
+    margin-top: 4rem ;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -10,7 +11,7 @@
     border: 1px solid rgb(223, 220, 220);
 }
 
-.left-btn:hover {
+.letf-icon:hover {
     color: #fff;
     background-color: #0a0909;
 
@@ -19,7 +20,7 @@
 .three-row span {
     font-size: 1rem;
     padding: .5rem;
-    margin: 1rem;
+    margin: 1rem .5rem;
     border: 1px solid rgb(223, 220, 220);
 }
 
